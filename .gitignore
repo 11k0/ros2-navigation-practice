@@ -1,41 +1,45 @@
-# Prerequisites
-*.d
+# MATLAB 临时文件
+*.asv
+*.m~
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# 编译后的 MEX 文件
+*.mex*
+*.mexw64
+*.mexa64
+*.mexmaci64
 
-# Precompiled Headers
-*.gch
-*.pch
+# MATLAB 代码生成
+codegen/
+slprj/
 
-# Linker files
-*.ilk
+# Simulink 缓存
+*.slxc
 
-# Debugger Files
-*.pdb
+# 自动生成的文件
+*.autosave
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# 日志文件
+*.log
+diary
 
-# Fortran module files
-*.mod
-*.smod
+# 数据文件（可选，根据需要取消注释）
+# *.mat
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Executables
-*.exe
-*.out
-*.app
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
 
-# debug information files
-*.dwo
+# 临时输出
+*.fig
+*.eps
+*.pdf
+*.png
+*.jpg
+!README_assets/
